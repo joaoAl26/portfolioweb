@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema FIT</title>
+    <link rel="stylesheet" href="/css/IMC.css">  
+</head>
+<h1 id="tit">Sistema FIT</h1>
+<body> 
+    <div class="form">
+    <h1 id="formtit"> Calculadora IMC </h1>
+    <div class="valores">
+        <h1 id="formtit"> Nome </h1>
+        <input id= "nome" type="text">
+    </div>
+    <div class="valores">
+        <h1 id="formtit2">Qual o seu Sexo Biológico?</h1>
+        <fieldset id="sexselect">
+        <input type="Radio" name="sexo" id="mas" value="Masculino" >
+        <label for="Masculino">Masculino</label>
+        <input type="Radio" name="sexo" id="fem" value="Feminino">
+        <label for="Feminino">Feminino</label> 
+        </fieldset>     
+    </div>
+    <div class="valores">
+        <h1 id="formtit">Altura (cm)</h1>
+            <input id="altura" type="number">
+    </div>
+    <div class="valores">
+        <h1 id="formtit">Peso (kg)</h1>
+        <input id="peso" type="number">
+    </div>
+    <button id="botao1" onclick="calculate()"> <h1 id="formtit2">Calcular</h1></button>
+<textarea name="" id="areatext" rows="8"></textarea>
+</div>
+</main>
+<script src="/js/imc.js"></script> 
+</body>
+</html>

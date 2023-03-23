@@ -1,0 +1,26 @@
+body {
+    background-image: url(/img/night2.jpg);
+}
+#tit{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+#botao2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(50, 50, 131);
+    border-radius: 2ch;
+    color: white;
+}
+#exer{
+background-color: rgb(59, 0, 65);
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+border-radius: 3ch;
+border-color: white;
+height: 4cm;
+width: 25cm;
+margin: 10px auto;
+}

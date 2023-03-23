@@ -1,0 +1,61 @@
+body{
+    background-image: url(/img/night2.jpg);
+}
+#formtit{
+    color: ghostwhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3ch;    
+    display: flex; 
+    align-items: flex-start;   
+}
+#formtit2{
+    color: ghostwhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2ch;    
+    display: flex; 
+    align-items: flex-start; 
+}
+#tit{
+    color: ghostwhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.form{
+    background-color: rgb(49, 87, 129);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 10px auto;
+    height: 15cm;
+    width: 15cm;
+    border-radius: 1ch;
+}
+.valores{
+    background-color: rgba(118, 46, 126, 0.884);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    border-radius: 1ch;
+    border-color: white;
+    height: 2cm ;
+    width: 10cm;
+    text-align: center;
+}
+#sexselect{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(61, 61, 61);
+}
+#botao1{
+    background-color: rgba(118, 46, 126, 0.884); 
+}
+#areatext{
+    width: 50%;
+    height: 1cm;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px auto;
+}

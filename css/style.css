@@ -1,0 +1,53 @@
+body {
+
+   background-image: url(/img/neon.jpg);
+
+}
+#nome {
+   text-align: center;
+   font-style:normal;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: ghostwhite; 
+}
+#eu {
+background-color: rgba(59, 0, 65, 0.801);
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+border-radius: 3ch;
+border-color: white;
+height: 6cm;
+width: 25cm;
+margin: 10px auto;
+}
+#botao {
+   background-color: rgb(31, 31, 95);
+   border-color: black;
+   border-radius:0,8cm;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   height: 4cm;
+   width: 4cm;
+   border-radius: 3ch;
+}
+#texto{
+   color: white;
+   text-align: center;
+   font-size: small;
+}
+
+#tag{
+   text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: #ffffff;
+}
+#secao{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 3cm;
+   width: 7cm;
+   background-color: rgb(80, 0, 87);
+   border-radius: 3ch;
+   border-color: black;
+   margin: 10px auto;
+}

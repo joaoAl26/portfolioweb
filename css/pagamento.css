@@ -1,0 +1,39 @@
+body{
+    background-image: url(/img/night2.jpg);
+}
+#titF{
+      text-align: center;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    margin: 2px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    height: 20cm;
+    background-color: rgb(64, 94, 122);
+    margin-top: 10px auto;
+    border-radius: 15px;
+}
+#sect{
+    margin: 5px auto ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 2cm ;
+    width: 10cm;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+#botao1{
+    background-color: rgb(112, 164, 212);
+    font-size: 10px;
+}
+#areatext{
+    width: 8cm;
+    height: 4cm;
+}
